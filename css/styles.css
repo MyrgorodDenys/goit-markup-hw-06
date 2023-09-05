@@ -6,6 +6,7 @@
   --c-5: #ffffff;
 }
 
+/* Base */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -14,10 +15,26 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
 }
 
 button {
@@ -25,7 +42,7 @@ button {
 }
 
 img {
-  display: block; /* Добавляем стиль display: block для всех изображений */
+  display: block;
 }
 
 .logo {
@@ -79,13 +96,13 @@ span {
 }
 
 .hero-section {
-  background-color: var(--c-3);/* TODO: replace with image */
+  background-color: var(--c-3);
   display: flex;
   flex-direction: column;
-  align-items: center; /* Центрує по горизонталі */
-  justify-content: center; /* Центрує по вертикалі */
-  height: 100vh; /* Налаштована висота секції, яка забезпечує центрування по вертикалі */
-  text-align: center; /* Центрує текст усередині секції */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
 
 .hero-title {
@@ -124,6 +141,7 @@ span {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .section-one-text {
