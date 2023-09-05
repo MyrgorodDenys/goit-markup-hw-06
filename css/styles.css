@@ -24,6 +24,10 @@ button {
   font-family: 'Raleway', sans-serif;
 }
 
+img {
+  display: block; /* Добавляем стиль display: block для всех изображений */
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
