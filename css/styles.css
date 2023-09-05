@@ -75,7 +75,13 @@ span {
 }
 
 .hero-section {
-  background-color: var(--c-3); /* TODO: replace with image */
+  background-color: var(--c-3);/* TODO: replace with image */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрує по горизонталі */
+  justify-content: center; /* Центрує по вертикалі */
+  height: 100vh; /* Налаштована висота секції, яка забезпечує центрування по вертикалі */
+  text-align: center; /* Центрує текст усередині секції */
 }
 
 .hero-title {
@@ -87,6 +93,7 @@ span {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .hero-button {
