@@ -56,6 +56,11 @@ img {
   text-transform: uppercase;
 }
 
+.logo::before {
+  content: 'WEB';
+  color: var(--c-2);
+}
+
 span {
   color: #2e2f42;
 }
@@ -221,6 +226,11 @@ footer {
   text-transform: uppercase;
 }
 
+.logo-one::before {
+  content: 'WEB';
+  color: var(--c-2);
+}
+
 .section-three {
   color: var(--c-3);
   font-family: Roboto;
@@ -258,6 +268,7 @@ footer {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .footer-span {
