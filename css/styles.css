@@ -219,6 +219,8 @@ span {
 
 footer {
   background-color: var(--c-3);
+  padding: 100px 0;
+  display: inline-block;
 }
 
 .logo-one {
@@ -279,4 +281,5 @@ footer {
 
 .footer-span {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
