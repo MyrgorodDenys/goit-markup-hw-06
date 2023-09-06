@@ -220,7 +220,6 @@ span {
 footer {
   background-color: var(--c-3);
   padding: 100px 0;
-  display: inline-block;
 }
 
 .logo-one {
@@ -232,6 +231,8 @@ footer {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-one::before {
@@ -281,5 +282,4 @@ footer {
 
 .footer-span {
   color: #f4f4fd;
-  margin-bottom: 16px;
-}
+ }
