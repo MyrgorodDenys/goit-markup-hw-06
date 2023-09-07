@@ -42,11 +42,11 @@ img {
 }
 
 .container {
-  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 32px;
   display: flex;
   justify-content: space-between;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .section {
@@ -60,11 +60,6 @@ header {
 .header-nav {
   display: flex;
   align-items: center;
-}
-
-.header-container {
-  width: 1158px;
-  padding: 0 15px;
 }
 
 .logo {
