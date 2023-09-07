@@ -45,6 +45,8 @@ img {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section {
@@ -61,8 +63,8 @@ header {
 }
 
 .header-container {
-  display: flex;
-  justify-content: space-between;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .logo {
