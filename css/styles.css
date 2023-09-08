@@ -60,6 +60,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
+  padding-bottom: 8;
 }
 
 .header-nav {
@@ -93,13 +94,15 @@ span {
   justify-content: center;
 }
 
-.link {
+.nav-link {
+  display: inline-block;
   color: var(--c-3);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 24 0;
 }
 
 .link:hover {
@@ -257,20 +260,6 @@ address {
 .footer-custom {
   background-color: var(--c-3);
   padding: 100px 0;
-}
-
-.logo-one {
-  display: flex;
-  font-family: 'Raleway', sans-serif;
-  color: var(--c-2);
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-bottom: 16px;
-  align-items: center;
 }
 
 .section-three {
