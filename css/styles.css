@@ -44,9 +44,14 @@ img {
 .container {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   width: 1158px;
   padding: 0 15px;
+
+}
+
+.header-container {
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .section {
@@ -86,6 +91,7 @@ span {
 
 .header-link {
   display: flex;
+  gap: 40px;
 }
 
 .link {
@@ -114,6 +120,7 @@ address {
 
 .contacts-link {
   display: flex;
+  gap: 40px;
 }
 
 .link-class {
