@@ -151,7 +151,7 @@ address {
   color: #404bbf;
 }
 
-.hero-section {
+.hero-inner {
   padding: 188px 0 188px;
   background-color: var(--c-3);
   display: flex;
