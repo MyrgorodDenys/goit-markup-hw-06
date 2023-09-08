@@ -60,7 +60,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
-} 
+}
 
 .nav {
   display: flex;
@@ -249,13 +249,12 @@ address {
 .footer-custom {
   background-color: var(--c-3);
   padding: 100px 0;
-  display: inline-block;
 }
 
 .logo-one {
+  display: flex;
   font-family: 'Raleway', sans-serif;
   color: var(--c-2);
- 
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -263,7 +262,8 @@ address {
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
+  align-items: start;
+  
 }
 
 .section-three {
