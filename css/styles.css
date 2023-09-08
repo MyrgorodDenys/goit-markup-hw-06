@@ -53,10 +53,6 @@ img {
   justify-content: space-between;
 }
 
-.section {
-  padding: 60px 0;
-}
-
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
@@ -246,6 +242,10 @@ address {
   letter-spacing: 0.02em;
 }
 
+.footer-section {
+  padding: 60px 0;
+}
+
 .footer-custom {
   background-color: var(--c-3);
   padding: 100px 0;
@@ -262,8 +262,7 @@ address {
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 16px;
-  align-items: start;
-  
+  align-items: center;
 }
 
 .section-three {
@@ -310,4 +309,5 @@ address {
   color: #f4f4fd;
   display: inline-block;
   align-items: center;
+  display: flex;
 }
