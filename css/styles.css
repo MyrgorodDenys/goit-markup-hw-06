@@ -41,16 +41,20 @@ img {
   display: block;
 }
 
-.container {
+.header-inner {
   margin: 0 auto;
   display: flex;
   width: 1158px;
   padding: 0 15px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .header-container {
   display: inline-flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header {
@@ -58,9 +62,11 @@ img {
   padding: 24px 0;
 }
 
-.nav {
+.header-nav {
   display: flex;
   align-items: center;
+  gap: 24px;
+  flex-grow: 1;
 }
 
 .logo {
@@ -80,9 +86,11 @@ span {
   color: #2e2f42;
 }
 
-.header-menu {
+.nav-list {
   display: flex;
   gap: 40px;
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .link {
