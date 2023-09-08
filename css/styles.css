@@ -109,6 +109,20 @@ span {
   color: var(--c-1);
 }
 
+.logo-one {
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  color: var(--c-2);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
 address {
   color: #434455;
   font-family: Roboto;
