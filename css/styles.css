@@ -41,6 +41,10 @@ img {
   display: block;
 }
 
+.link {
+  padding: 24px 0;
+}
+
 .container {
   width: 1440px; /* Задайте ширину контейнера на ваш вибір */
   max-width: 1200px; /* Максимальна ширина контейнера */
@@ -63,6 +67,20 @@ img {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  margin-right: 76px;
+}
+
+.contacts-link {
+  display: flex;
+  gap: 40px;
 }
 
 .header {
