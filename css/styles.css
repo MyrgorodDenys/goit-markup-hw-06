@@ -66,10 +66,6 @@ img {
   align-items: center;
 }
 
-.logo-image {
-  margin-right: 76px;
-}
-
 .contacts-link {
   display: flex;
   gap: 40px;
@@ -88,7 +84,7 @@ img {
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-  color: #4d5ae5;
+  --c-3: #2e2f42;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -116,6 +112,7 @@ span {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
+  margin-right: 76px;
 }
 .link:hover {
   color: var(--c-1);
