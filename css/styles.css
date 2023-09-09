@@ -53,11 +53,12 @@ img {
   box-sizing: border-box;
 }
 
+/* Header Section Styles */
 .header-inner {
   margin: 0 auto;
   display: flex;
-  width: 1158px;
-  padding: 0 15px;
+  max-width: 1158px;
+  padding: 24px 15px; /* Adjust padding as needed */
   align-items: center;
   justify-content: space-between;
   gap: 24px;
@@ -76,6 +77,63 @@ img {
 
 .logo-image {
   margin-right: 76px;
+}
+
+.contacts-link {
+  display: flex;
+  gap: 40px;
+}
+
+/* Navigation Styles */
+.nav-list {
+  display: flex;
+  gap: 40px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav-link {
+  display: inline-block;
+  color: var(--c-3);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding: 24px 0; /* Adjust padding as needed */
+}
+
+.link:hover {
+  color: var(--c-1);
+}
+
+/* Logo Styles */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: flex;
+}
+
+span {
+  color: #2e2f42;
+}
+
+.header-container {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
 }
 
 .contacts-link {
@@ -111,13 +169,6 @@ img {
 
 span {
   color: #2e2f42;
-}
-
-.nav-list {
-  display: flex;
-  gap: 40px;
-  flex-grow: 1;
-  justify-content: center;
 }
 
 .nav-link {
@@ -351,4 +402,37 @@ address {
   display: inline-block;
   align-items: center;
   display: flex;
+}
+
+.nav-link {
+  display: inline-block;
+  color: var(--c-3);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding: 24px 0; /* Adjust padding as needed */
+}
+
+.link:hover {
+  color: var(--c-1);
+}
+
+/* Logo Styles */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: flex;
+}
+
+span {
+  color: #2e2f42;
 }
