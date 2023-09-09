@@ -210,11 +210,14 @@ address {
 }
 .features-section {
   padding: 120px 0;
+  display: flex;
+  gap: 24px;
 }
 
 .features-section-one {
   display: flex;
   gap: 24px;
+  padding: 120px 0;
 }
 
 .section-one {
