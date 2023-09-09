@@ -127,7 +127,7 @@ span {
   text-transform: uppercase;
   margin-bottom: 16px;
   align-items: center;
-  display: inline-block; 
+  display: inline-block;
 }
 address {
   color: #434455;
@@ -218,6 +218,20 @@ address {
   display: flex;
   gap: 24px;
   padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip-path: inset(50%);
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.features-section-two {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-one {
