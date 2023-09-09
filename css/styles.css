@@ -152,6 +152,7 @@ address {
   color: #404bbf;
 }
 .hero-section {
+  padding: 188px 0;
 }
 .hero-inner {
   padding: 188px 0;
@@ -181,7 +182,6 @@ address {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
-  padding: 188px 0;
 }
 
 .hero-button {
