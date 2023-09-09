@@ -115,7 +115,7 @@ span {
 .link:hover {
   color: var(--c-1);
 }
-.logo-one {
+.logoone {
   display: flex;
   font-family: 'Raleway', sans-serif;
   color: var(--c-2);
