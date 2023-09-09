@@ -115,7 +115,7 @@ span {
 .link:hover {
   color: var(--c-1);
 }
-.logo_one {
+.logo-one {
   display: flex;
   font-family: 'Raleway', sans-serif;
   color: var(--c-2);
@@ -127,6 +127,7 @@ span {
   text-transform: uppercase;
   margin-bottom: 16px;
   align-items: center;
+  display: inline-block; 
 }
 address {
   color: #434455;
@@ -210,6 +211,12 @@ address {
 .features-section {
   padding: 120px 0;
 }
+
+.features-section-one {
+  display: flex;
+  gap: 24px;
+}
+
 .section-one {
   color: var(--c-3);
   font-size: 20px;
