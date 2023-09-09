@@ -165,7 +165,10 @@ address {
   justify-content: center;
   height: 100vh;
   text-align: center;
+  width: 1158px; 
+  padding: 0 15px;
 }
+
 .hero-title {
   max-width: 496px;
   margin: 0 auto;
