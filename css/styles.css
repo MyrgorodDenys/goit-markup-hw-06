@@ -40,18 +40,15 @@ img {
 }
 
 .container {
-  width: 1440px; 
-  max-width: 1200px; 
-  margin: 0 auto; 
-  padding: 20px; 
+  width: 1440px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   box-sizing: border-box;
 }
 .header-inner {
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
   display: flex;
-  width: 1158px;
-  padding: 0 15px;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
@@ -165,7 +162,7 @@ address {
   justify-content: center;
   height: 100vh;
   text-align: center;
-  width: 1158px; 
+  width: 1158px;
   padding: 0 15px;
 }
 
@@ -181,7 +178,11 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 20px;
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
+
 .hero-button {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
