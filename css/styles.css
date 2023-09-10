@@ -334,7 +334,7 @@ address {
   row-gap: 48px;
 }
 
-.our-portfolio-zero {
+.our-portfolio-zero:first-child {
   width: calc((100% - 48px) / 3);
 }
 
