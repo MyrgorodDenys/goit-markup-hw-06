@@ -53,19 +53,17 @@ img {
   justify-content: space-between;
   gap: 24px;
 }
-.header-container {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .nav-container {
   display: flex;
   align-items: center;
 }
 
-.contacts-link {
+.contacts {
   display: flex;
+}
+
+.contacts-link {
   gap: 40px;
 }
 
@@ -334,7 +332,7 @@ address {
   row-gap: 48px;
 }
 
-.our-portfolio-zero:first-child {
+.our-portfolio-zero {
   width: calc((100% - 48px) / 3);
 }
 
