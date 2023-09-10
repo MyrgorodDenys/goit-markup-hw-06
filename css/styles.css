@@ -321,6 +321,10 @@ address {
   margin-bottom: 48px;
 }
 
+.our-portfolio-one {
+  width: calc((100% - 48px) / 3);
+}
+
 .section-three-ul {
   display: flex;
   gap: 24px;
