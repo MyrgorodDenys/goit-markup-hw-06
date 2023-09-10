@@ -318,12 +318,14 @@ address {
 
 .our-portfolio {
   padding: 120px 0 120px 0;
+  margin-bottom: 48px;
 }
 
 .section-three-ul {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .section-three {
@@ -336,7 +338,9 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
+
 .section-three-one {
   color: #2e2f42;
   font-size: 20px;
