@@ -322,7 +322,6 @@ address {
 }
 
 .our-portfolio-one {
-  width: calc((100% - 48px) / 3);
 }
 
 .section-three-ul {
@@ -330,6 +329,10 @@ address {
   gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+}
+
+.our-portfolio-zero {
+  width: calc((100% - 48px) / 3);
 }
 
 .section-three {
