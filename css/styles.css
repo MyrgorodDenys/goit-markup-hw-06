@@ -315,6 +315,17 @@ address {
   background-color: var(--c-3);
   padding: 100px 0;
 }
+
+.our-portfolio {
+  padding: 120px 0 120px 0;
+}
+
+.section-three-ul {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
 .section-three {
   color: var(--c-3);
   font-family: Roboto;
