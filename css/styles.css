@@ -147,6 +147,8 @@ address {
   gap: 40px;
 }
 .link-class {
+  display: flex;
+  gap: 40px;
   color: #434455;
 }
 .link-class:hover {
