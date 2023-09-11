@@ -86,13 +86,14 @@ img {
   text-transform: uppercase;
 }
 
-.logo-text {
-  margin-right: 76px;
+ {
+
 }
 
-span {
+.logo-text {
   margin-right: 76px;
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .nav-list {
