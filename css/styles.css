@@ -57,7 +57,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
 }
 
 .contacts {
@@ -85,7 +84,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 span {
@@ -108,7 +106,6 @@ span {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
-  margin-right: 76px;
 }
 .link:hover {
   color: var(--c-1);
@@ -137,6 +134,7 @@ address {
   letter-spacing: 0.02em;
   font-style: normal;
   display: flex;
+  margin-left: auto;
 }
 .contacts-link {
   display: flex;
