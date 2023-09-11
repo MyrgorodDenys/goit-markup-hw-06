@@ -57,6 +57,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .contacts {
@@ -86,14 +87,9 @@ img {
   text-transform: uppercase;
 }
 
- {
-
-}
-
 .logo-text {
   margin-right: 76px;
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .nav-list {
