@@ -40,12 +40,13 @@ img {
 }
 
 .container {
-  width: 1440px;
+  display: flex;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .header-class {
