@@ -64,6 +64,7 @@ img {
 }
 
 .contacts-link {
+  display: flex;
   gap: 40px;
 }
 
@@ -141,6 +142,10 @@ address {
   display: flex;
   gap: 40px;
 }
+.link {
+  display: flex;
+  gap: 40px;
+}
 .link-class {
   color: #434455;
 }
@@ -151,8 +156,9 @@ address {
   color: #404bbf;
 }
 .hero-section {
-
+  padding: 188px 0;
 }
+
 .hero-inner {
   padding: 188px 0;
   background-color: var(--c-3);
