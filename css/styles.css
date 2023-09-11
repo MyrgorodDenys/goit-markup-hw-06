@@ -47,8 +47,11 @@ img {
   box-sizing: border-box;
 }
 
-.header-inner {
+.header-class {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,7 +73,7 @@ img {
   flex-grow: 1;
 }
 
-.logo { 
+.logo {
   display: flex;
   align-items: center;
   font-family: 'Raleway', sans-serif;
@@ -82,7 +85,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 76px;
- }
+}
 
 span {
   color: #2e2f42;
