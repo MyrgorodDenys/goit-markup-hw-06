@@ -68,7 +68,6 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  margin-right: 76px;
 }
 
 .logo {
@@ -87,7 +86,7 @@ img {
 
 .logo-text {
   color: #2e2f42;
- }
+}
 
 .nav-list {
   display: flex;
@@ -134,6 +133,12 @@ address {
   display: flex;
   margin-left: auto;
 }
+
+.contacts {
+  display: flex;
+  gap: 40px;
+}
+
 .contacts-link {
   display: flex;
   gap: 40px;
