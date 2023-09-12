@@ -108,7 +108,6 @@ img {
   color: var(--c-1);
 }
 .logo-one {
-  display: flex;
   font-family: 'Raleway', sans-serif;
   color: var(--c-2);
   font-size: 18px;
@@ -119,6 +118,7 @@ img {
   text-transform: uppercase;
   align-items: center;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .address {
@@ -371,7 +371,6 @@ img {
   color: #f4f4fd;
   display: inline-block;
   align-items: center;
-  display: flex;
 }
 
 .logo-zero {
