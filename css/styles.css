@@ -68,6 +68,7 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  margin-right: 76px;
 }
 
 .logo {
@@ -86,7 +87,6 @@ img {
 
 .logo-text {
   color: #2e2f42;
-  margin-right: 76px;
  }
 
 .nav-list {
