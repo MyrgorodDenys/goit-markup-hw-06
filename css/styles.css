@@ -134,11 +134,6 @@ address {
   margin-left: auto;
 }
 
-.contacts {
-  display: flex;
-  gap: 40px;
-}
-
 .contacts-link {
   display: flex;
   gap: 40px;
