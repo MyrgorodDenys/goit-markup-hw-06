@@ -122,12 +122,6 @@ img {
   display: inline-block;
 }
 
-.logo-zero {
-  display: flex;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .address {
   color: #434455;
   font-family: Roboto;
