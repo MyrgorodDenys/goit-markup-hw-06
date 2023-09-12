@@ -117,7 +117,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  margin-bottom: 16px;
   align-items: center;
   display: inline-block;
 }
@@ -376,6 +375,6 @@ img {
 }
 
 .logo-zero {
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
 }
