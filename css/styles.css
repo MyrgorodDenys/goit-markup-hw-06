@@ -35,10 +35,6 @@ img {
   display: block;
 }
 
-.link {
-  padding: 24px 0;
-}
-
 .container {
   margin: 0 auto;
   width: 1158px;
@@ -111,6 +107,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
+  color: #404bbf;
 }
 .link:hover {
   color: var(--c-1);
