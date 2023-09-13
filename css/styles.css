@@ -96,6 +96,10 @@ img {
   justify-content: center;
 }
 
+.li:first-child {
+  position: relative;
+}
+
 .nav-link {
   display: inline-block;
   color: var(--c-3);
