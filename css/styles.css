@@ -298,6 +298,22 @@ img {
   text-align: center;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .section-two {
   color: var(--c-3);
   font-size: 36px;
