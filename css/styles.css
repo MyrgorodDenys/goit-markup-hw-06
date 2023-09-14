@@ -305,7 +305,20 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.icons {
+
+li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 32px;
+  fill: #f4f4fd;
+}
+
+ {
   display: flex;
   align-items: center;
   justify-content: center;
