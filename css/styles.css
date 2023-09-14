@@ -305,8 +305,7 @@ img {
   justify-content: center;
   gap: 24px;
 }
-
- {
+.icons {
   display: flex;
   align-items: center;
   justify-content: center;
