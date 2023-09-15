@@ -331,8 +331,7 @@ img {
 .svg-class {
   fill: #f4f4fd;
 }
-
- {
+.icons-container {
   display: flex;
   align-items: center;
   justify-content: center;
