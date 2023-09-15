@@ -321,6 +321,12 @@ img {
   fill: #f4f4fd;
   padding: 32px;
 }
+.icons-one:hover {
+  background-color: #404bbf;
+}
+.icons-one:focus {
+  background-color: #404bbf;
+}
  {
   display: flex;
   align-items: center;
