@@ -328,6 +328,12 @@ img {
 .icons-two:focus {
   background-color: #404bbf;
 }
+
+.svg-class {
+  width: 16px;
+  height: 16px;
+}
+
  {
   display: flex;
   align-items: center;
