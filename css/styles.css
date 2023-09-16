@@ -447,11 +447,7 @@ img {
 }
 
 .footer-one-one {
-  display: flex;
-  align-items: baseline;
   list-style-type: none;
-
-  margin-right: 120px;
 }
 
 .social {
@@ -476,4 +472,18 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+}
+
+.social-one-one {
+  width: 40px;
+  height: 40px;
+}
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-two {
+  margin-right: 120px;
 }
