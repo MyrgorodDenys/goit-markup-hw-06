@@ -445,3 +445,7 @@ img {
   display: inline-block;
   align-items: center;
 }
+
+.footer-one-one {
+  align-items: baseline;
+}
