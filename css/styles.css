@@ -341,6 +341,11 @@ img {
   margin-bottom: 8px;
 }
 
+.icons-container-one {
+  width: 264px;
+  height: 112px;
+}
+
 .section-two {
   color: var(--c-3);
   font-size: 36px;
