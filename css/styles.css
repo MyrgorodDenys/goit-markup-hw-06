@@ -483,6 +483,10 @@ img {
   list-style-type: none;
 }
 
+.social-zero {
+  margin-right: 120px;
+}
+
 .social {
   font-weight: 500;
   font-size: 16px;
