@@ -737,3 +737,10 @@ img {
 .modal-textarea:focus {
   border-color: #4d5ae5;
 }
+
+.modal-five {
+  margin-bottom: 24px;
+}
+
+.modal-input-checkbox {
+}
