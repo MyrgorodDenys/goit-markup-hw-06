@@ -759,7 +759,7 @@ img {
   fill: transparent;
 }
 
-.terms-and-conditions input:checked + span {
+.modal-five input:checked + .terms-and-conditions {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
