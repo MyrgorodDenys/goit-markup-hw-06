@@ -759,8 +759,21 @@ img {
   fill: transparent;
 }
 
-.modal-five input:checked + .terms-and-conditions {
+background-color: #404bbf;
+border: none;
+fill: #f4f4fd;
+
+.modal-input-checkbox:checked + .modal-label .terms-and-conditions {
   background-color: #404bbf;
+}
+.modal-input-checkbox:checked + .modal-label .terms-and-conditions {
   border: none;
+}
+
+.modal-input-checkbox:checked
+  + .modal-label
+  .terms-and-conditions
+  .modal-svg-six
+  use {
   fill: #f4f4fd;
 }
