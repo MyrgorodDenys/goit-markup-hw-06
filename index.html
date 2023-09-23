@@ -565,28 +565,31 @@ Text input
           <div class="modal-five">
             <input
               class="modal-input-checkbox visually-hidden"
-              id="privacy-policy"
+              id="user-privacy"
               type="checkbox"
-              name="privacy-policy"
+              value="true"
+              name="user-privacy"
             />
 
-            <label class="modal-label" for="privacy-policy">
+            <label class="modal-label" for="user-privacy">
               <span class="terms-and-conditions"
                 >I accept the terms and conditions of the
                 <svg class="modal-svg-six" width="10" height="8">
                   <use href="./images/icons.svg#icon-Checkbox-modal"></use>
                 </svg>
+                <a
+                  href="https://example.com/"
+                  class="terms-and-conditions-link"
+                >
+                </a>
+                <a
+                  href="https://example.com/privacy-policy"
+                  class="privacy-policy-link"
+                >
+                  <span class="">Privacy Policy</span>
+                </a>
               </span>
             </label>
-            <a href="https://example.com/" class="terms-and-conditions-link">
-            </a>
-
-            <a
-              href="https://example.com/privacy-policy"
-              class="privacy-policy-link"
-            >
-              <span class="">Privacy Policy</span>
-            </a>
           </div>
           <!-- Шостий дочірній елемент -->
           <button class="modal-button-two" type="button">Send</button>
