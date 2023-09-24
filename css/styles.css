@@ -716,3 +716,12 @@ img {
 .modal-five .terms-and-conditions {
   white-space: nowrap;
 }
+
+.privacy-policy-link {
+  text-decoration: underline;
+}
+
+/* close modal window */
+modal-container {
+  display: none;
+}
