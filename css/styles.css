@@ -1209,7 +1209,7 @@ svg {
     flex-direction: column;
     justify-content: space-around;
     gap: 12px;
-    padding: 16px 16px 16px 122px;
+    padding: 16px 16px 16px 0;
   }
 
   .link-one {
