@@ -930,11 +930,17 @@ svg {
 /* Hero Section Tablet Screen */
 @media only screen and (min-width: 768px) {
   .hero-section {
+    max-width: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .hero-section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* max-width: 768px; */
     /* height: 436px; */
+    /* max-width: 320px; */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -948,8 +954,8 @@ svg {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 768px;
-    height: 436px;
+    /* max-width: 768px; */
+    /* height: 436px; */
     padding: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
